@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+.showBook{
+    outline: none;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 2px 20px 5px 20px;
+    color:black;
+    width:35%;
+    font-size: 20px;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack list items vertically on small screens */
+    }
+
+    .navbar li {
+        margin-right: 0; /* Remove right margin for list items on small screens */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+}
